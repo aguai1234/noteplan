@@ -77,12 +77,12 @@
             </el-form-item>
             <el-form-item label="内容" prop="content">
               <el-input
-                  v-model="noteForm.content"
-                  type="textarea"
-                  :rows="12"
-                  placeholder="请输入笔记内容"
-                  maxlength="5000"
-                  show-word-limit
+                v-model="noteForm.content"
+                type="textarea"
+                :rows="12"
+                placeholder="请输入笔记内容"
+                maxlength="5000"
+                show-word-limit
               />
             </el-form-item>
             <el-form-item label="标签">
